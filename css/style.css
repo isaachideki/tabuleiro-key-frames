@@ -1,0 +1,47 @@
+   
+   .table{
+    position: absolute;
+   
+}
+
+
+
+.preto{
+    background-color: #000000;
+}
+    
+.branco{
+    background-color: #ffffff;
+}
+
+#cavalo{
+    position: absolute;
+    top: 10px; 
+    left: 70px;
+    animation: cavalo 10s  infinite;
+
+     
+    
+}
+@keyframes cavalo{
+   
+    5%{top: 11px; left: 74px}
+    12%{top: 135px; left: 75px;}
+    17%{top: 134px; left: 135px;}
+    25%{top: 260px; left: 135px;}
+    31%{top: 260px; left: 200px;}
+    36%{top: 380px; left: 200px;}
+    42%{top: 380px; left: 255px;}
+    100%{top: 10px; left: 75px;}
+    95%{top: 135px; left: 75px;}
+    90%{top: 135px; left: 135px;}
+    84%{top: 260px; left: 135px;}
+    78%{top: 260px; left: 200px;}
+    72%{top: 380px; left: 200px;}
+    66%{top: 380px; left: 255px;}
+    60%{top: 445px; left: 255px;}
+    54%{top: 445px; left: 385px;}
+    48%{top: 445px; left: 255px;}
+
+}
+
